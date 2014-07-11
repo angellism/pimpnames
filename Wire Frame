@@ -1,0 +1,90 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Pimp Names</title>
+<style type="text/css">
+	 #banner {
+		display: table;
+		margin: auto;
+		border: 1px solid #000;
+		width: 500px;
+		text-align: center;
+	 }
+	 
+	 #user_name {
+		display: table;
+		margin: auto;
+	 }
+	 
+	 #results {
+		display: table;
+		margin: auto;
+		width: 800px;
+		border: 1px solid #000;
+		padding: 2em;
+	 }
+	 
+	 #pimppic {
+		float: left;
+		width: 150px;
+		height: 200px;
+		background-color: #6F6;
+		margin-right: 1em;
+		margin-bottom: 1em;
+	 }
+	 
+	 .pimpresult {
+		text-decoration: underline;
+	 }
+	 
+	 #adspace {
+		display: table;
+		margin: auto;
+		width: 400px;
+		height: 100px;
+		border: 1px solid #000;
+	 }
+	
+
+</style>
+</head>
+
+<body>
+<br>
+<div id="banner">
+	<p><h1>Pimp Names</h1></p>
+</div>
+<br>
+<div id="user_name">
+	<form name="pimp_name" action="pimpName();" method="get">
+	<input type="text" name="fullname"><br><br>
+	<input id="user_name" type="submit" value="Pimp my Name">
+	</form>
+</div>
+<br>
+<br>
+<div id="adspace">
+Ads go here
+</div>
+<br>
+<br>
+<div id="results">
+	<div id="pimppic">Pimp Pic goes here</div>
+	Your Pimp name is...
+	<h2 class="pimpresult">Doug E. Fresh</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum tortor quam, non cursus enim condimentum quis. In a gravida elit. Cras consectetur euismod pharetra. Aliquam sed ligula porttitor, ornare diam nec, elementum nisi. Sed tristique sem mollis erat dapibus vulputate. Maecenas sed mollis orci, ut tristique risus. Nullam in quam vulputate, molestie dolor sed, vulputate magna. Aliquam erat volutpat.
+	</p>
+	<p>Sed augue libero, imperdiet non tempor at, mollis eget lorem. Nulla orci ipsum, semper pellentesque congue et, luctus sit amet sem. Nam et luctus mauris, eget ullamcorper sapien. Proin volutpat quam a interdum iaculis. Phasellus ullamcorper leo vel sagittis bibendum. Aliquam nec sapien interdum, facilisis velit vitae, mattis dolor. Duis in eros hendrerit, egestas ipsum ac, luctus nulla. Curabitur eu iaculis turpis, non condimentum ligula. Fusce quis vulputate nisi, a consectetur turpis. Nullam eu sem nisi. Nam ac auctor mi. Morbi euismod varius dolor, consectetur feugiat quam pharetra quis. Praesent molestie, libero in imperdiet aliquam, urna dui vehicula quam, vitae ullamcorper nibh ipsum sed purus. Morbi sit amet condimentum dolor, sed sagittis urna.
+	</p>
+	<p>Ut sit amet interdum diam. Quisque euismod odio justo, sed laoreet lorem iaculis vitae. Nunc semper tincidunt aliquam. Nunc pretium, enim quis fermentum convallis, augue neque faucibus diam, sagittis euismod ante nunc nec tortor. Integer diam eros, rhoncus eget fermentum non, pellentesque ac erat. Integer ut ullamcorper nisi. Nunc varius facilisis consequat. Proin tincidunt, nibh rutrum tincidunt molestie, nisi risus congue libero, non consectetur turpis erat quis risus. Nulla malesuada urna et dui molestie, lacinia dictum lacus suscipit.
+	</p>
+	<p>Vivamus ac ligula ut elit tincidunt mattis sed posuere purus. Aliquam et ultrices tortor, in sagittis nisl. Suspendisse vitae erat vulputate, dignissim justo gravida, egestas metus. Cras euismod quis ante ac dignissim. Praesent bibendum sollicitudin sodales. Mauris at velit arcu. Etiam scelerisque leo in tristique pretium. Curabitur nec justo venenatis, consectetur tortor sed, pretium tortor. Donec quis sapien ac dui gravida pretium at at diam. Ut ullamcorper dui quis hendrerit commodo. Donec gravida, massa hendrerit tincidunt vestibulum, augue lacus fermentum augue, quis bibendum velit metus tempus lectus. Pellentesque vitae vestibulum nunc, vitae dictum libero. Nulla in mollis metus. Vivamus dictum nulla vitae eros posuere, at ullamcorper arcu pretium. Ut congue pretium vulputate. Maecenas feugiat viverra arcu sed consequat.
+	</p>
+	<p>Nullam non molestie ante. Quisque hendrerit molestie nibh, ac vulputate arcu aliquam eu. Duis at rhoncus magna. Sed ligula velit, ullamcorper at tempus at, scelerisque convallis libero. Nam ac turpis nibh. Duis auctor lobortis libero, non ultricies lacus sodales a. Etiam eget varius nisl. Proin varius sodales leo nec aliquam. Suspendisse vulputate felis eu mauris pretium lacinia. Donec sodales iaculis enim, ut aliquam ante consequat eget. Maecenas luctus quis turpis eget molestie. Fusce a diam nisl.
+	</p>
+</div>
+
+
+</body>
+
+</html>
